@@ -8,6 +8,9 @@ module.exports = {
         darkBlue: "#00203F",
         accent: "#EFADCB",
       },
+      fontFamily: {
+        Electrolize: ["Electrolize"],
+      },
     },
   },
   plugins: [],

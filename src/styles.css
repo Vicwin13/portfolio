@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+}
+
 .social {
     @apply w-6;
+}
+
+.button {
+    @apply border-main px-4 py-2 border-2;
 }
