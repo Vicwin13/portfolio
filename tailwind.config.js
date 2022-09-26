@@ -11,6 +11,11 @@ module.exports = {
       fontFamily: {
         Electrolize: ["Electrolize"],
       },
+      backgroundImage: {
+        curve1: "url(public/images/curve_right.png)",
+        curve2: "url(public/images/curve_left.png)",
+        arrow_bottom: "url(public/images/arrow-bottom.png)",
+      },
     },
   },
   plugins: [],

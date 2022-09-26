@@ -6,7 +6,6 @@
   "description": "My Portfolio",
   "version": "1.0.0",
   "main": "tailwind.config.js",
-  "devDependencies": {},
   "scripts": {
     "build-css": "tailwindcss build src/styles.css -o public/styles.css",
     "watch": "tailwindcss build src/styles.css -o public/styles.css --watch"
