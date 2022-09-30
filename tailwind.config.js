@@ -11,10 +11,21 @@ module.exports = {
       fontFamily: {
         Electrolize: ["Electrolize"],
       },
+      dropShadow: {
+        shadow1: "3px 5px 8px rgb(173,239,209, 1)",
+      },
+      keyframes: {
+        wiggle: {
+          "0%": { transform: "translate(0%)" },
+          "50%": { transform: "translate(50%)" },
+          "100%": { transform: "translate(0%)" },
+        },
+      },
+      animation: {
+        wiggle: "wiggle 5s ease-in-out infinite",
+      },
       backgroundImage: {
-        curve1: "url(public/images/curve_right.png)",
-        curve2: "url(public/images/curve_left.png)",
-        arrow_bottom: "url(public/images/arrow-bottom.png)",
+        curve1: "url('./public/images/curve_left.png')",
       },
     },
   },

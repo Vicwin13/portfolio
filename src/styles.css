@@ -21,3 +21,11 @@
 .button {
     @apply border-main px-4 py-2 border-2;
 }
+
+.first_pink {
+    @apply w-16;
+}
+
+.logo {
+    @apply w-16;
+}
