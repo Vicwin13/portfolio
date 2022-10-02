@@ -29,3 +29,7 @@
 .logo {
     @apply w-16;
 }
+
+.images {
+    @apply h-full object-cover opacity-75;
+}
