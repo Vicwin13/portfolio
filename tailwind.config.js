@@ -38,10 +38,10 @@ module.exports = {
         },
       },
       animation: {
-        wiggle: "wiggle 6s ease-in-out infinite",
-        wiggle1: " wiggle1 10s ease-in-out infinite",
+        wiggle: "wiggle 7s ease-in-out infinite",
+        wiggle1: " wiggle1 9s ease-in-out infinite",
         wiggle2: " wiggle2 8s ease-in-out infinite",
-        rotate: "rotate 5s ease-out infinite",
+        rotate: "rotate 5s ease-in-out infinite",
       },
       backgroundImage: {
         curve1: "url('./public/images/curve_left.png')",
