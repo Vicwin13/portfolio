@@ -20,9 +20,28 @@ module.exports = {
           "50%": { transform: "translate(25%)" },
           "100%": { transform: "translate(-25%)" },
         },
+        wiggle1: {
+          "0%": { transform: "translate(-25%)" },
+          "50%": { transform: "translate(25%)" },
+          "100%": { transform: "translate(-25%)" },
+        },
+        wiggle2: {
+          "0%": { transform: "translate(-25%)" },
+          "50%": { transform: "translate(25%)" },
+          "100%": { transform: "translate(-25%)" },
+        },
+        rotate: {
+          "0%": { transform: "rotate(0deg)" },
+          "25%": { transform: "rotate(-30deg)" },
+          "75%": { transform: "rotate( 30deg)" },
+          "100%": { transform: "rotate(0deg)" },
+        },
       },
       animation: {
-        wiggle: "wiggle 5s ease-in-out infinite",
+        wiggle: "wiggle 6s ease-in-out infinite",
+        wiggle1: " wiggle1 10s ease-in-out infinite",
+        wiggle2: " wiggle2 8s ease-in-out infinite",
+        rotate: "rotate 5s ease-out infinite",
       },
       backgroundImage: {
         curve1: "url('./public/images/curve_left.png')",

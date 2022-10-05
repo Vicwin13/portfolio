@@ -32,12 +32,12 @@
                         </ul>
                     </nav>
                 </header>
-                <div class="absolute  h-96 right-44 top-28 flex w-auto">
+                <div class="absolute invisible animate-rotate md:visible  h-96 right-44 top-28 flex w-auto">
                     <div style="
                      background-image: url('./images/left-curve.png');
                     width: 7rem;
                     height: 15rem;
-                    " class="w-32 relative self-center h-32 bg-no-repeat bg-cover"></div>
+                    " class="w-32 relative  -right-10 self-center h-32 bg-no-repeat bg-cover"></div>
                     <div   style="
                     background-image: url('/public/images/right-curve.png');
                     height: 15rem;
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="absolute right-1/2">
-                        <div class="bg-[url('./images/arrow-bottom.png')] bg-contain bg-no-repeat w-24 h-32"></div>
+                        <div class=" animate-bounce bg-[url('./images/arrow-bottom.png')] bg-contain bg-no-repeat w-24 h-32"></div>
                     </div>
 
                     <div class="flex justify-between w-full">
@@ -89,33 +89,34 @@
                     </div>
                 </main>
             </div>
-            <div class="">
-                <div class="flex justify-center gap-4 py-2 animate-wiggle">
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
-                    <img class="first_pink" src="./images/p-poly.png" alt="icon"/>
+            <div class="w-full">
+                <div class="flex justify-center gap-4  h-10 animate-wiggle">
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
                 </div>
-                <div class="flex justify-evenly py-2">
-                    <img src="./images/t-poly.png" alt="icon"/>
-                    <img src="./images/t-poly.png" alt="icon"/>
-                    <img src="./images/t-poly.png" alt="icon"/>
-                    <img src="./images/t-poly.png" alt="icon"/>
-                    <img src="./images/t-poly.png" alt="icon"/>
-                    <img src="./images/t-poly.png" alt="icon"/>
-                    <img src="./images/t-poly.png" alt="icon"/>
+                <div class="flex justify-center gap-4 animate-wiggle2 py-2 h-10">
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/t-poly.png')] bg-no-repeat"></div>
                 </div>
-                <div class="flex justify-evenly py-2">
-                    <img src="./images/p-poly.png" alt="icon"/>
-                    <img src="./images/p-poly.png" alt="icon"/>
-                    <img src="./images/p-poly.png" alt="icon"/>
-                    <img src="./images/p-poly.png" alt="icon"/>
-                    <img src="./images/p-poly.png" alt="icon"/>
-                    <img src="./images/p-poly.png" alt="icon"/>
-                    <img src="./images/p-poly.png" alt="icon"/>
+                <div class="flex justify-center gap-4 py-2 h-20 animate-wiggle1 ">
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+                   <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
+
                 </div>
             </div>
 
@@ -163,28 +164,82 @@
                 </div>
             </div>
             <div>  
-                <h2 class="mt-28 text-center"> Experiments</h2>        
-                <div class="grid grid-cols-3 place-items-center h-full mt-8 gap-8 ">
-                <div class="border w-64 h-72  rounded-3xl overflow-hidden">
-                    <img class="images" src="./images/port1.avif" alt="">
-                    <div class=" z-10 border border-red-600">
-                    <a class="border" href="#"><img src="./images/iconmonstr-share-11.png" alt="share icon"></a> 
+                <h2 class="mt-28 text-center"> Experiments</h2>   
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center h-full mt-8 gap-8 ">
+
+                <div class="border-covering">
+                    <div class="h-full bg-cover bg-no-repeat bg-[url('./images/port1.avif')]">
+                    <div class=" relative h-full">
+                        <h1 class="page-title hover:translate-y-0">Page Title</h1>
+                        <div class="link-contain">
+                            <a class="" href="#"><img class="w-10" src="./images/512px-External_link_font_awesome 1.png" alt="share icon"></a> 
+                            <a href="#"> <img class="w-10" src="./images/ghub2.png" alt="github profile link"></a>
+                        </div>
                     </div>
+                    </div>
+                    
                 </div>
-                <div class="border overflow-hidden w-64 h-72  rounded-3xl">
-                    <img class="images" src="./images/port2.avif" alt="">
+                 <div class="border-covering">
+                    <div class="h-full bg-cover bg-no-repeat bg-[url('./images/port2.avif')]">
+                    <div class=" relative h-full">
+                        <h1 class="page-title hover:translate-y-0">Page Title</h1>
+                        <div class="link-contain">
+                            <a class="" href="#"><img class="w-10" src="./images/512px-External_link_font_awesome 1.png" alt="share icon"></a> 
+                            <a href="#"> <img class="w-10" src="./images/ghub2.png" alt="github profile link"></a>
+                        </div>
+                    </div>
+                    </div>
+                    
                 </div>
-                <div class="border overflow-hidden w-64 h-72  rounded-3xl">
-                    <img class="images" src="./images/port3.avif" alt="">
+                <div class="border-covering">
+                    <div class="h-full bg-cover bg-no-repeat bg-[url('./images/port3.avif')]">
+                    <div class=" relative h-full">
+                        <h1 class="page-title hover:translate-y-0">Page Title</h1>
+                        <div class="link-contain">
+                            <a class="" href="#"><img class="w-10" src="./images/512px-External_link_font_awesome 1.png" alt="share icon"></a> 
+                            <a href="#"> <img class="w-10" src="./images/ghub2.png" alt="github profile link"></a>
+                        </div>
+                    </div>
+                    </div>
+                    
                 </div>
-                <div class="border w-64 h-72  rounded-3xl overflow-hidden">
-                    <img class="images" src="./images/port2.avif" alt="">
+               <div class="border-covering">
+                    <div class="h-full bg-cover bg-no-repeat bg-[url('./images/port2.avif')]">
+                    <div class=" relative h-full">
+                        <h1 class="page-title hover:translate-y-0">Page Title</h1>
+                        <div class="link-contain">
+                            <a class="" href="#"><img class="w-10" src="./images/512px-External_link_font_awesome 1.png" alt="share icon"></a> 
+                            <a href="#"> <img class="w-10" src="./images/ghub2.png" alt="github profile link"></a>
+                        </div>
+                    </div>
+                    </div>
+                    
                 </div>
-                <div class="border overflow-hidden w-64 h-72  rounded-3xl">
-                    <img class="images" src="./images/port3.avif" alt="">
+               <div class="border-covering">
+                    <div class="h-full bg-cover bg-no-repeat bg-[url('./images/port3.avif')]">
+                    <div class=" relative h-full">
+                        <h1 class="page-title hover:translate-y-0">Page Title</h1>
+                        <div class="link-contain">
+                            <a class="" href="#"><img class="w-10" src="./images/512px-External_link_font_awesome 1.png" alt="share icon"></a> 
+                            <a href="#"> <img class="w-10" src="./images/ghub2.png" alt="github profile link"></a>
+                        </div>
+                    </div>
+                    </div>
+                    
                 </div>
-                <div class="border overflow-hidden w-64 h-72  rounded-3xl">
-                    <img class="images" src="./images/port1.avif" alt="">
+                <div class="border-covering">
+                    <div class="h-full bg-cover bg-no-repeat bg-[url('./images/port1.avif')]">
+                    <div class=" relative h-full">
+                        <h1 class="page-title hover:translate-y-0">Page Title</h1>
+                        <div class="link-contain">
+                            <a class="" href="#"><img class="w-10" src="./images/512px-External_link_font_awesome 1.png" alt="share icon"></a> 
+                            <a href="#"> <img class="w-10" src="./images/ghub2.png" alt="github profile link"></a>
+                        </div>
+                    </div>
+                    </div>
+                    
                 </div>
 
             </div>

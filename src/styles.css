@@ -33,3 +33,15 @@
 .images {
     @apply h-full object-cover opacity-75;
 }
+
+.page-title {
+    @apply text-center translate-y-3/4 transition-all duration-700 bg-darkBlue absolute bottom-8 right-0 left-0;
+}
+
+.link-contain {
+    @apply absolute top-4 left-2 flex flex-col-reverse gap-2;
+}
+
+.border-covering {
+    @apply drop-shadow-lg w-64 h-72 relative rounded-3xl overflow-hidden;
+}
