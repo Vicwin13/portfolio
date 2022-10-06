@@ -10,12 +10,13 @@
     </head>
     <body class="bg-darkBlue relative text-white font-Electrolize overflow-x-hidden">
         <div class="bg-curve1 w-4/5 py-2 mx-auto relative ">
-           <div class="h-screen ">
+           <div class="h-5/6 md:h-screen ">
                 <header class="flex m-0 absolute w-full mt-4 top-0 justify-between  items-center drop-shadow-2xl">
                     <div>
                         <img class="w-14" src="./images/logotrial.png" alt="logo"/>
                     </div>
-                    <nav>
+                    <div class="flex">
+                    <nav class="hidden md:block">
                         <ul class="flex gap-10 items-center">
                             <li>
                                 <a href="">About</a>
@@ -31,8 +32,12 @@
                             </li>
                         </ul>
                     </nav>
+                    <div class=" h-10 w-10">
+                        <svg class="fill-main" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg>
+                    </div>
+                    </div>
                 </header>
-                <div class="absolute invisible animate-rotate md:visible  h-96 right-44 top-28 flex w-auto">
+                <div class="absolute invisible animate-rotate md:visible  h-96 right-20 top-28 flex w-auto">
                     <div style="
                      background-image: url('./images/left-curve.png');
                     width: 7rem;
@@ -42,13 +47,13 @@
                     background-image: url('/public/images/right-curve.png');
                     height: 15rem;
                     width: 7rem;" 
-                    " class="w-28 h-32 relative bg-cover"></div>
+                    class="w-28 h-32 relative bg-cover"></div>
                 </div>
                 
 
-                <main class="relative h-auto mt-36 ml-16">
+                <main class="relative h-auto mt-52 md:ml-16">
                     <div class="w-16 lg:w-32 lg:h-32 h-16 absolute lg:-top-5 lg:-left-5 -top-1 -left-2 bg-main border rounded-full -z-10"></div>
-                    <div class="w-2/3">
+                    <div class="md:w-2/3">
                         <h3 class="lg:text-lg text-sm text-darkBlue font-bold">Hi there,</h3>
                         <h1 class="text-4xl lg:text-7xl ">
                             <span class="text-darkBlue">I'm</span>
@@ -66,7 +71,7 @@
                         <div class=" animate-bounce bg-[url('./images/arrow-bottom.png')] bg-contain bg-no-repeat w-24 h-32"></div>
                     </div>
 
-                    <div class="flex justify-between w-full">
+                    <div class="md:flex hidden justify-between w-full">
                         <div class="self-end fixed bottom-0 left-0">
                             <hr class="w-60 transform rotate-90"/>
                         </div>
@@ -83,12 +88,14 @@
                             <a href="#">
                                 <img class="social" src="./images/faceb.png" alt="facebook logo"/>
                             </a>
+                            <div class="">
                             <hr class="w-60 transform rotate-90 mt-36"/>
+                            </div>
                         </div>
                     </div>
                 </main>
             </div>
-            <div class="w-full">
+            <div class="w-full hidden md:block">
                 <div class="flex justify-center gap-4  h-10 animate-wiggle">
                    <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
                    <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
@@ -119,7 +126,9 @@
                 </div>
             </div>
 
-            <div class="flex mt-8 items-center justify-center gap-4">
+            <div class="mt-48">
+                <h1 class="text-center">About</h1>
+            <div class="flex mt-8 flex-col md:flex-row items-center justify-center gap-4">
                 <div class="md:w-1/2 leading-loose">
                     Hello, my name is
                     <span>Victor</span>
@@ -162,6 +171,8 @@
                     <img class="" src="./images/Vict.jpg" alt="Victor Nwimo"/>
                 </div>
             </div>
+            </div>
+
             <div>  
                 <h2 class="mt-28 text-center"> Experiments</h2>   
 
@@ -244,7 +255,7 @@
             </div>
             </div>
 
-            <div class="h-96 mt-44 leading-loose mx-auto relative snap-center w-1/2 text-center ">
+            <div class="h-96 mt-44 mb-16 leading-loose mx-auto relative  md:w-1/2 text-center ">
                 <h1 class="text-3xl md:text-5xl py-8">Get in Touch</h1>
                 <p>I can help to provide lasting solution to your front-end web development problem.
                     I'm just a click away and I will do my best to get back to you as quickly as possible.
