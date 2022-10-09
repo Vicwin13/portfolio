@@ -20,5 +20,8 @@
     "url": "https://github.com/Vicwin13/portfolio/issues"
   },
   "homepage": "https://github.com/Vicwin13/portfolio#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "@kamona/tailwindcss-perspective": "^0.1.1"
+  }
 }

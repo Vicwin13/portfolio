@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: ["./public/index.html"],
   theme: {
     extend: {
@@ -46,7 +47,12 @@ module.exports = {
       backgroundImage: {
         curve1: "url('./public/images/curve_left.png')",
       },
+      dropShadow :{
+        '3xl': '0 5px 3px rgba(0,0,0,.5)',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+     require('@kamona/tailwindcss-perspective'),
+  ],
 };

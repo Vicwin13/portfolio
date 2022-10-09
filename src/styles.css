@@ -27,7 +27,11 @@
 }
 
 .logo {
-    @apply w-16;
+    @apply max-w-xs bg-darkBlue text-center p-4 h-2/4 rounded-md drop-shadow-3xl flex flex-col items-center;
+}
+
+.reduce {
+    @apply max-h-6;
 }
 
 .images {
