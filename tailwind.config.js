@@ -53,7 +53,8 @@ module.exports = {
         "4xl": ["0 3px 4px rgba(0,0,0,.5)", "0 -1px 4px rgba(0,0,0, .3)"],
       },
       screens: {
-        break1: "850px",
+        break2: "850px",
+        break1: "950px",
       },
     },
   },

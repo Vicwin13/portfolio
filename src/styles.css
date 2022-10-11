@@ -31,7 +31,7 @@
 }
 
 .reduce {
-    @apply max-h-6;
+    @apply max-h-10 object-cover;
 }
 
 .images {
@@ -55,5 +55,5 @@
 }
 
 .profile {
-    @apply transition-all ease-linear w-2/4 text-center h-auto rounded-lg self-start overflow-hidden
+    @apply transition-all ease-linear text-center h-auto rounded-lg self-start overflow-hidden;
 }
