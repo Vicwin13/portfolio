@@ -15,7 +15,7 @@
 }
 
 .social {
-    @apply w-6 object-cover;
+    @apply fill-color;
 }
 
 .button {
@@ -48,4 +48,12 @@
 
 .box {
     @apply w-72 h-64 bg-darkBlue drop-shadow-4xl backdrop-blur-sm;
+}
+
+.side-link {
+    @apply fill-darkBlue drop-shadow-3xl
+}
+
+.profile {
+    @apply transition-all ease-linear w-2/4 text-center h-auto rounded-lg self-start overflow-hidden
 }
