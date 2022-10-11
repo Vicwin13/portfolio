@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: ["./public/index.html"],
   theme: {
     extend: {
@@ -8,6 +8,7 @@ module.exports = {
         main: "#ADEFD1",
         darkBlue: "#00203F",
         accent: "#EFADCB",
+        color: "rgb(205,205,205)",
       },
       fontFamily: {
         Electrolize: ["Electrolize"],
@@ -47,12 +48,11 @@ module.exports = {
       backgroundImage: {
         curve1: "url('./public/images/curve_left.png')",
       },
-      dropShadow :{
-        '3xl': '0 5px 3px rgba(0,0,0,.5)',
-      }
+      dropShadow: {
+        "3xl": "0 5px 3px rgba(0,0,0,.5)",
+        "4xl": ["0 3px 4px rgba(0,0,0,.5)", "0 -1px 4px rgba(0,0,0, .3)"],
+      },
     },
   },
-  plugins: [
-     require('@kamona/tailwindcss-perspective'),
-  ],
+  plugins: [require("@kamona/tailwindcss-perspective")],
 };

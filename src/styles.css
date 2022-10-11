@@ -15,11 +15,11 @@
 }
 
 .social {
-    @apply w-8;
+    @apply w-6 object-cover;
 }
 
 .button {
-    @apply border-main px-4 py-2 border-2;
+    @apply border-main px-4 py-2 border-2 rounded-sm;
 }
 
 .first_pink {
@@ -46,6 +46,6 @@
     @apply absolute top-4 left-2 flex flex-col-reverse gap-2;
 }
 
-.border-covering {
-    @apply drop-shadow-lg w-64 h-72 relative rounded-3xl overflow-hidden;
+.box {
+    @apply w-72 h-64 bg-darkBlue drop-shadow-4xl backdrop-blur-sm;
 }
