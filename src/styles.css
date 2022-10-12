@@ -47,7 +47,7 @@
 }
 
 .box {
-    @apply w-72 h-64 bg-darkBlue drop-shadow-4xl backdrop-blur-sm;
+    @apply w-80 h-64 bg-darkBlue drop-shadow-4xl backdrop-blur-sm;
 }
 
 .side-link {
@@ -55,5 +55,13 @@
 }
 
 .profile {
-    @apply transition-all ease-linear text-center h-auto rounded-lg self-start overflow-hidden;
+    @apply transition-all w-64 ease-linear text-center gap-y-10 h-auto rounded-lg self-start overflow-hidden;
+}
+
+.side-nave {
+    @apply h-screen bg-color w-80 fixed text-black right-0 z-20 flex flex-col justify-between translate-x-full;
+}
+
+.show-side-nav {
+    @apply translate-x-0 duration-500 ease-in-out;
 }
