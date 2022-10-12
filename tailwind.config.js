@@ -38,12 +38,17 @@ module.exports = {
           "75%": { transform: "rotate( 30deg)" },
           "100%": { transform: "rotate(0deg)" },
         },
+        scaleIt: {
+          0: { transform: "scaleX(0%)" },
+          100: { transform: "scaleX(100%)" },
+        },
       },
       animation: {
         wiggle: "wiggle 7s ease-in-out infinite",
         wiggle1: " wiggle1 9s ease-in-out infinite",
         wiggle2: " wiggle2 8s ease-in-out infinite",
         rotate: "rotate 5s ease-in-out infinite",
+        scaleIt: "scaleIt 10s ease-in-out ",
       },
       backgroundImage: {
         curve1: "url('./public/images/curve_left.png')",

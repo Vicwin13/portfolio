@@ -59,7 +59,7 @@
 }
 
 .side-nave {
-    @apply h-screen bg-color w-80 fixed text-black right-0 z-20 flex flex-col justify-between translate-x-full;
+    @apply h-screen bg-color w-80 fixed text-black right-0 z-20 flex flex-col justify-between translate-x-full ease-linear duration-200;
 }
 
 .show-side-nav {
