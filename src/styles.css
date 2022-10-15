@@ -27,7 +27,11 @@
 }
 
 .logo {
-    @apply max-w-xs bg-darkBlue text-center p-4 h-2/4 rounded-md drop-shadow-3xl flex flex-col items-center;
+    @apply opacity-0 perspective-10 max-w-xs bg-darkBlue text-center p-4 h-2/4 rounded-md drop-shadow-3xl flex flex-col items-center;
+}
+
+.show {
+    @apply opacity-100;
 }
 
 .reduce {
@@ -64,4 +68,21 @@
 
 .show-side-nav {
     @apply translate-x-0 duration-500 ease-in-out;
+}
+
+.flip {
+    @apply animate-flip;
+}
+
+.slide-left {
+    @apply animate-slideLeft;
+
+}
+
+.slide-right {
+    @apply animate-slideRight;
+}
+
+.drop-in {
+    @apply animate-dropIn;
 }
