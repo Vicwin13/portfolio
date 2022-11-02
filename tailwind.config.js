@@ -71,11 +71,31 @@ module.exports = {
         },
         dropIn: {
           from: {
-            // transform: "translateY(-60%)",
+            transform: "translateY(-60%)",
             opacity: "0",
           },
           to: {
-            //  transform: "translateY(0%)",
+            transform: "translateY(0%)",
+            opacity: "1",
+          },
+        },
+        moveUp: {
+          from: {
+            transform: "translateY(60%)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0%)",
+            opacity: "1",
+          },
+        },
+        flipSide: {
+          from: {
+            transform: "rotateY(80deg)",
+            opacity: "0",
+          },
+          to: {
+            transform: "rotateY(0deg)",
             opacity: "1",
           },
         },
@@ -90,7 +110,9 @@ module.exports = {
         flip: "flip 1s ease-in-out forwards",
         slideLeft: "slideLeft 1s ease-in-out forwards",
         slideRight: "slideRight 1s ease-in-out forwards",
-        dropIn: "dropIn 4s ease-in-out 3s forwards",
+        dropIn: "dropIn 1s ease-in-out forwards",
+        flipSide: "flipSide 2s ease-in-out forwards",
+        moveUp: "moveUp 3s ease-in-out 3s forwards",
       },
       backgroundImage: {
         curve1: "url('./public/images/curve_left.png')",

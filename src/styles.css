@@ -27,7 +27,7 @@
 }
 
 .logo {
-    @apply opacity-0 perspective-10 max-w-xs bg-darkBlue text-center p-4 h-2/4 rounded-md drop-shadow-3xl flex flex-col items-center;
+    @apply opacity-0 perspective-10 max-w-xs bg-darkBlue text-center p-4 h-auto rounded-md drop-shadow-3xl flex flex-col items-center;
 }
 
 .show {
@@ -35,7 +35,7 @@
 }
 
 .reduce {
-    @apply max-h-10 object-cover;
+    @apply max-h-16 object-cover;
 }
 
 .images {
@@ -51,7 +51,7 @@
 }
 
 .box {
-    @apply w-80 h-64 bg-darkBlue drop-shadow-4xl backdrop-blur-sm;
+    @apply w-96 h-80 bg-darkBlue drop-shadow-4xl rotate-y-60;
 }
 
 .side-link {
@@ -85,4 +85,16 @@
 
 .drop-in {
     @apply animate-dropIn;
+}
+
+.dropping-in {
+    @apply -translate-y-2/3 opacity-0;
+}
+
+.flipSide {
+    @apply animate-flipSide;
+}
+
+.moveUp {
+    @apply animate-moveUp;
 }
