@@ -8,14 +8,17 @@
         <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon"/>
         <script src="./script.js" defer type="module"></script>
 
-        <title>Victor Nwimo</title>
+        <title>Victor C. Nwimo</title>
     </head>
     <body class="bg-darkBlue relative text-color font-Electrolize overflow-x-hidden">
         <aside id="side-nav" class="side-nave">
-            <div class="w-10 hamburger">
-                <svg class="fill-darkBlue" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21 3.998c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm7.491 6.432 2.717-2.718c.146-.146.338-.219.53-.219.404 0 .751.325.751.75 0 .193-.073.384-.22.531l-2.717 2.717 2.728 2.728c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-2.728-2.728-2.728 2.728c-.147.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l2.728-2.728-2.722-2.722c-.146-.147-.219-.338-.219-.531 0-.425.346-.749.75-.749.192 0 .384.073.53.219z" fill-rule="nonzero"/></svg>
+            <div class="w-10 hamburger border">
+                <svg class="fill-darkBlue" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m21 3.998c0-.478-.379-1-1-1h-16c-.62 0-1 
+                    .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm7.491 
+                    6.432 2.717-2.718c.146-.146.338-.219.53-.219.404 0 .751.325.751.75 0 .193-.073.384-.22.531l-2.717 2.717 2.728 2.728c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-2.728-2.728-2.728 2.728c-.147.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l2.728-2.728-2.722-2.722c-.146-.147-.219-.338-.219-.531 0-.425.346-.749.75-.749.192 0 .384.073.53.219z" fill-rule="nonzero"/></svg>
             </div>
-            <div class="text-center cursor-pointer text-darkBlue flex flex-col text-2xl gap-4  ">
+            <div class="text-center cursor-pointer border text-darkBlue flex flex-col text-2xl gap-4  ">
                 <a href="#about">About</a>
                 <a href="#experiment">Experiments</a>
                 <a href="#contact">Contact</a>
@@ -44,7 +47,7 @@
                         <img class="w-14" src="./images/logotrial.png" alt="logo"/>
                     </div>
                     <div class="flex">
-                    <nav class="hidden md:block">
+                    <nav class="invisible md:visible ">
                         <ul class="flex gap-10 items-center text-md ">
                             <li style="animation-delay: 0s ;" class=" dropping-in relative before:contents[''] hover:font-medium hover:scale-110 duration-100 hover:text-white   before:absolute before:left-0 before:bottom-0 before:bg-accent before:w-0 hover:before:w-full before:transition-all ease-linear before:duration-500 p-1 before:h-1">
                                 <a href="#about">About</a>
@@ -56,7 +59,7 @@
                                 <a href="#contact">Contact</a>
                             </li>
                             <li style="animation-delay: .3s ;" class=" dropping-in uppercase relative before:contents[''] hover:font-medium hover:scale-110 duration-100 hover:text-white   before:absolute before:left-0 before:bottom-0 before:bg-accent before:w-0 hover:before:w-full before:transition-all ease-linear before:duration-500 p-1 before:h-1">
-                                <a href="https://bit.ly/3T19h9w" target='_blank' rel="noopener noreferrer">Resume</a>
+                                <a href="https://docs.google.com/document/d/1uP1n4t0Oyrt5srwPhDO0Bw3gFKub65oVg6p0RsEgMQM/edit?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</a>
                                 
                             </li>
                         </ul>
@@ -78,8 +81,8 @@
                     width: 7rem;" 
                     class="w-28 h-32 relative bg-cover"></div>
         </div>
-                
-
+<!--                 
+  This is the landing page text -->
                 <main class="relative h-auto mt-52 mb-0 md:ml-16">
                     <div class="w-16 lg:w-32 lg:h-32 h-16 absolute lg:-top-5 lg:-left-5 -top-1 -left-2 bg-main border rounded-full -z-10"></div>
                     <div class="md:w-2/3 slideR  ">
@@ -93,27 +96,30 @@
                             I build and (occasionally design) aesthetically functional
                            websites and web apps that proffers solution to the needs of my audience.
                         </p>
-                       <a href="#contact" ><button class="button mt-6">Contact</button></a> 
+                       <a href="#contact" ><button class="button mt-6 bg-color">Contact</button></a> 
                     </div>
 
                     <div class="absolute right-1/4 md:right-1/2 ">
                         <div class=" animate-bounce bg-[url('./images/arrow-bottom.png')] bg-contain bg-no-repeat w-24 h-32"></div>
                     </div>
 
-                    <div class="break1:flex hidden justify-between w-screen">
+                    <!-- This is the side down links -->
+
+                    
+                    <div class="break1:visible  justify-between w-screen">
                         <div class="self-end fixed bottom-0 left-0 flex gap-60 text-xs tracking-widest flex-col">
                            <div class=" -rotate-90 text-color hover:text-main hover:-translate-y-2 duration-200 shadow-2xl"> <a href="mailto:vnwimo13@gmail.com">vnwimo13@gmail.com</a></div>
                             <hr class="w-60 transform rotate-90"/>
                         </div>
                         <div class="flex items-center gap-1 flex-col fixed bottom-0 right-0">
                             <div class="flex flex-col gap-3">
-                            <a href=""><svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                            <a href="https://github.com/Vicwin13"><svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
 
-                            <a href=""><svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="https://www.linkedin.com/in/victor-nwimo-8b5946183/"><svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
 
-                            <a href=""><svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+                            <a href="https://twitter.com/VictorWinner13" ><svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
 
-                            <a href="#">
+                            <a href="http://fb.com">
                                 <svg class="social hover:fill-main hover:-translate-y-1 hover:duration-300 hover:ease-in-out" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
                             </a>
                             </div>
@@ -128,7 +134,7 @@
             <!-- The animated diamonds -->
 
 
-            <div class="w-full hidden md:block mt-48">
+            <!-- <div class="w-full invisible md:visible mt-48">
                 <div class="flex justify-center gap-4  h-10 animate-wiggle">
                    <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
                    <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
@@ -157,29 +163,30 @@
                    <div class=" first_pink bg-contain h-full  bg-[url('./images/p-poly.png')] bg-no-repeat"></div>
 
                 </div>
-            </div>
+            </div> -->
 
             <!-- This is the about section -->
 
-            <section id="about" class="mt-48 md:mt-10 w-full">
-                <h1 class="text-center text-3xl">About</h1>
+            <section id="about" class=" pt-24 md:mt-10 w-full">
+                <h1 class="  text-center text-3xl">About</h1>
 
             <div class="break1:flex-row flex md:mx-16 mt-8 items-start flex-col justify-center ">
                 <div class=" w-full mx-auto break1:w-2/5 items-start">
                     <div class="  text-justify leading-loose slideR">
                     Hello, my name is
-                    <span>Victor</span>
+                    <span class="text-accent font-bold">Victor</span>
                     but my friends call me
-                    <span>Winner</span>
+                    <span class="font-bold">Winner</span>
                     and I love developing designs for the web. My
                     interest in frontend development started when I was introduced to HTML
                     and CSS in a tech hub in school. From then on, it’s been self-learning
                     all through and the results have been amazing as you will see from my
                     project links below.
-                    <p class="mt-6">
-                        One thing I love as much as coding is music and singing. Probably, 
-                        I would create a blog about my musical journey (thinking emoji). 
-                        But for now, here are some of the technologies and languages I use:
+                    <p class="mt-6 relative">
+                        One thing I love as much as coding is music. Probably, 
+                        I would create a blog about my musical journey <span>🤔</span>.                        
+                        
+                   <p>But for now, here are some of the technologies and languages I use:</p> 
                     </p>
                     </div>
                     </div>
@@ -246,12 +253,12 @@
                         <div style="transition-delay: 2s ;" class="box  perspective-10 hover:scale-105 duration-150 ease-in-out">
                              <div class=" ml-0">
                                 <div class="flex flex-nowrap justify-between p-6">
-                                   <a href="https://github.com/Vicwin13/SH-Project1-Grp-82" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/ghub2.png" alt=""> </a>
-                                   <a href="https://vicwin13.github.io/SH-Project1-Grp-82/" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/512px-External_link_font_awesome 1.png" alt=""> </a>
+                                   <a href="https://github.com/Vicwin13/gallery" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/ghub2.png" alt=""> </a>
+                                   <a href="https://gallery-gilt-chi.vercel.app/" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/512px-External_link_font_awesome 1.png" alt=""> </a>
                                 </div>
                                 <div class='px-8'>
-                                <h2>Dark FLyo Theme</h2>
-                                <p class="">A Simple Dark theme</p>
+                                <h2>Draggable Gallery</h2>
+                                <p class="">A simple gallery with drag and drop functionalities</p>
                                 </div>
                             </div>
                         
@@ -262,12 +269,12 @@
                         <div style="transition-delay: 4s ;" class="box  hover:scale-105 duration-150 ease-in-out">
                              <div class=" ml-0">
                                 <div class="flex flex-nowrap justify-between p-6">
-                                   <a href="https://github.com/Vicwin13/ResponsiveForm" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/ghub2.png" alt=""> </a>
-                                   <a href="https://vicwin13.github.io/ResponsiveForm/" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/512px-External_link_font_awesome 1.png" alt=""> </a>
+                                   <a href="https://github.com/Vicwin13/movie-disc" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/ghub2.png" alt=""> </a>
+                                   <a href="https://movie-disc.vercel.app/" target="_blank" rel="noopener noreferrer"> <img class="w-6" src="./images/512px-External_link_font_awesome 1.png" alt=""> </a>
                                 </div>
                                 <div class='px-8'>
-                                <h2>Responsive Form</h2>
-                                <p class="">A Frontend Mentor responsive functional form</p>
+                                <h2>Movie List</h2>
+                                <p class="">Simple app, that consumes an API, and displaying the required results</p>
                                 </div>
                             </div>
                         
