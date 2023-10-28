@@ -5,24 +5,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="style2.css">
         <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon"/>
         <script src="./script.js" defer type="module"></script>
 
         <title>Victor C. Nwimo</title>
     </head>
     <body class="bg-darkBlue relative text-color font-Electrolize overflow-x-hidden">
+     
+        
+       <!-- This is the side bar -->
+
+
         <aside id="side-nav" class="side-nave">
-            <div class="w-10 hamburger border">
+            <div class="w-10 hamburger ">
                 <svg class="fill-darkBlue" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="m21 3.998c0-.478-.379-1-1-1h-16c-.62 0-1 
                     .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm7.491 
                     6.432 2.717-2.718c.146-.146.338-.219.53-.219.404 0 .751.325.751.75 0 .193-.073.384-.22.531l-2.717 2.717 2.728 2.728c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-2.728-2.728-2.728 2.728c-.147.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l2.728-2.728-2.722-2.722c-.146-.147-.219-.338-.219-.531 0-.425.346-.749.75-.749.192 0 .384.073.53.219z" fill-rule="nonzero"/></svg>
             </div>
-            <div class="text-center cursor-pointer border text-darkBlue flex flex-col text-2xl gap-4  ">
+            <div class="text-center cursor-pointer text-darkBlue flex flex-col text-2xl gap-4 ">
                 <a href="#about">About</a>
                 <a href="#experiment">Experiments</a>
                 <a href="#contact">Contact</a>
-                <a href="https://bit.ly/3T19h9w">Resume</a>
+                <a href="https://docs.google.com/document/d/1uP1n4t0Oyrt5srwPhDO0Bw3gFKub65oVg6p0RsEgMQM/edit?usp=sharing">Resume</a>
 
             </div>
             <!-- This is a comment section -->
@@ -47,9 +53,15 @@
                     <div>
                         <img class="w-14" src="./images/logotrial.png" alt="logo"/>
                     </div>
-                    <div class="flex">
-                    <nav class="invisible md:visible ">
-                        <ul class="flex gap-10 items-center text-md ">
+
+
+                    <!-- This is the nav bar -->
+
+
+                    <div class="flex  ">
+                    <nav id="nav-bar">
+
+                        <ul  class="flex  gap-10 items-center text-md ">
                             <li style="animation-delay: 0s ;" class=" dropping-in relative before:contents[''] hover:font-medium hover:scale-110 duration-100 hover:text-white   before:absolute before:left-0 before:bottom-0 before:bg-accent before:w-0 hover:before:w-full before:transition-all ease-linear before:duration-500 p-1 before:h-1">
                                 <a href="#about">About</a>
                             </li>
@@ -72,7 +84,7 @@
                 </header>
             <div class="absolute invisible animate-rotate md:visible  h-96 right-20 top-28 flex w-auto">
                     <div style="
-                     background-image: url('./images/left-curve.png');
+                    background-image: url('./images/left-curve.png');
                     width: 7rem;
                     height: 15rem;
                     " class="w-32 relative  -right-10 self-center h-32 bg-no-repeat bg-cover"></div>
@@ -107,7 +119,7 @@
                     <!-- This is the side down links -->
 
                     
-                    <div class="break1:visible  justify-between w-screen">
+                    <div class=" justify-between w-screen" id="side-down-links">
                         <div class="self-end fixed bottom-0 left-0 flex gap-60 text-xs tracking-widest flex-col">
                            <div class=" -rotate-90 text-color hover:text-main hover:-translate-y-2 duration-200 shadow-2xl"> <a href="mailto:vnwimo13@gmail.com">vnwimo13@gmail.com</a></div>
                             <hr class="w-60 transform rotate-90"/>

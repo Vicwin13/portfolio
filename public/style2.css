@@ -1,0 +1,21 @@
+#nav-bar {
+
+    display: none;
+}
+
+#side-down-links {
+    display: none;
+}
+
+
+@media screen and (min-width : 768px) {
+    #nav-bar {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    #side-down-links {
+        display: block;
+    }
+}
